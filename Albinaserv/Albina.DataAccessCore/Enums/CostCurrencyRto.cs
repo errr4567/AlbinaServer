@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Albina.DataAccessCore.Enums
 {
-    enum CostCurrencyRto
+    public enum CostCurrencyRto
     {
+        RUB,
+        EUR,
+        USD
     }
 }

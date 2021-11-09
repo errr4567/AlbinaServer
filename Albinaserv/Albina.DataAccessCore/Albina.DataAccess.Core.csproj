@@ -36,7 +36,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\CostCurrencyRto.cs" />
+    <Compile Include="Enums\VirtualExpenseStatusRto.cs" />
     <Compile Include="Models\UserRto.cs" />
+    <Compile Include="Models\VirtualExpenseRto.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.ComponentModel.DataAnnotations" />
