@@ -13,7 +13,10 @@ namespace Albina.DataAccessCore.Models
     public class VirtualExpenseRto
     {
         [Key] public int Id { get; set; }
-        public int AuthorId { get; set; }
+        public int? UserId { get; set; }
+
+        public UserRto User { get; set; }
+
         public string WhereSpend { get; set; }
         public float Cost { get; set; }
         public CostCurrencyRto CostCurrency { get; set; }
